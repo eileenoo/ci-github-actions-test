@@ -1,0 +1,19 @@
+{
+  "name": "ci-github-actions-test",
+  "version": "1.0.0",
+  "description": "Test github actions for a ci workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neniman/ci-github-actions-test.git"
+  },
+  "author": "Verena Eileen Schlott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neniman/ci-github-actions-test/issues"
+  },
+  "homepage": "https://github.com/neniman/ci-github-actions-test#readme"
+}
