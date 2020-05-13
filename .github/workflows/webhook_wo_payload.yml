@@ -1,0 +1,15 @@
+name: Webhook Example
+
+on:
+    repository_dispatch:
+        types: do-something
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: On repository dispatch!
+      run: |
+        echo "do-something"
