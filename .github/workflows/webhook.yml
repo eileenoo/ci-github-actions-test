@@ -1,4 +1,4 @@
-name: Webhook Example
+name: Webhook Example with Payload
 on: repository_dispatch
 jobs:
   build:

@@ -1,4 +1,4 @@
-name: Webhook Example
+name: Webhook Example without Payload
 
 on:
     repository_dispatch:
